@@ -1,3 +1,46 @@
-*{
-   /* background-color: red; */
+/* ------------RESETS------------------*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/*----------------modem------------------------*/
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ------------Cabeçalho------------------*/
+
+.header-bg {
+  background-color: #000000;
+}
+.header {
+  padding: 20px;
+}
+.header-menu {
+  justify-content: center;
+  gap: 40px;
+}
+.header-menu a {
+  color: #fff;
+  padding: 16px 0;
+  display: inline-block;
+  font-size: 1.125rem;
 }
