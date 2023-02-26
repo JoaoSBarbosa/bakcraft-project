@@ -8,9 +8,7 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-.bg-black {
-  background-color: var(--bg-color);
-}
+
 .poppins {
   font-family: "Poppins", sans-serif;
 }
