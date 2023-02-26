@@ -1,5 +1,6 @@
 .header {
-  padding: 20px;
+  padding-bottom: 1.25rem;
+  padding-top: 1.25rem;
   gap: 20px;
 }
 .header-bg{
