@@ -1,0 +1,19 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.bg-black {
+  background-color: var(--bg-color);
+}
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
