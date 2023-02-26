@@ -10,11 +10,8 @@
   gap: 2.5rem;
 }
 .header-menu a {
-  color:var(--cor-0);
   padding: 16px 0;
   display: inline-block;
-  font-size: 1.125rem;
-  font-weight: 400;
   position: relative;
 }
 .header-menu a::after {
