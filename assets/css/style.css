@@ -4,12 +4,15 @@
 @import './global/model.css';
 @import './global/header.css';
 
-/* Home */
-@import './home/introducao.css';
-
 /* Utilidades */
 @import './utility/componentes.css';
 
+/* Home */
+@import './home/introducao.css';
+
+
+/* Lista de bicicletas */
+@import './bicicletas/bicicletas-lista.css';
 
 
 
