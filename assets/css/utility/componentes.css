@@ -21,6 +21,24 @@
   background: var(--cor-9);
   color: var(--cor-2);
 }
+.button.seta{
+  display: flex;
+  align-items: center;
+}
+.button.seta::after{
+  content: "";
+  display: inline-block;
+  width: 1.25rem;
+  height: 0.62rem;
+  margin-left: 0.75rem;
+  background: url('../../img/icones/seta.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform .3s;
+}
+.button.seta:hover::after{
+  transform: translateX(4px);
+}
 .link {
   display: inline-block;
   color: var(--cor-p1);
