@@ -3,6 +3,8 @@
 @import './utility/cores.css';
 @import './global/model.css';
 @import './global/header.css';
+@import './global/footer.css';
+
 
 /* Utilidades */
 @import './utility/componentes.css';
@@ -12,6 +14,7 @@
 @import './home/tecnologia.css';
 @import './home/parceiros.css';
 @import './home/depoimento.css';
+
 
 
 
