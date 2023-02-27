@@ -8,9 +8,18 @@
   text-transform: uppercase;
   color: var(--cor-p5);
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
+  max-width: max-content;
 }
 .button:hover {
   background: var(--cor-liner-hover);
+}
+.button.secundario{
+  background: var(--cor-10);
+  color: var(--cor-2);
+}
+.button.secundario:hover{
+  background: var(--cor-9);
+  color: var(--cor-2);
 }
 .link{
   display: inline-block;
