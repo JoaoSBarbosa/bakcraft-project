@@ -38,3 +38,18 @@
    border: 0 5px 5px 0;
    background-color: var(--cor-0);
 }
+.orcamento-produto label{
+   background-color: var(--cor-1);
+   padding: 1.25rem;
+   display: inline-block;
+}
+.orcamento-conteudo{
+   padding: 1.25rem;
+   background-color: #222;
+   display: none;
+}
+#bikcraft:checked ~ #orcamento-bikcraft,
+#seguro:checked ~ #orcamento-seguro{
+   background-color: var(--cor-p1);
+   display: block;
+}
