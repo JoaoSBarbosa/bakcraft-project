@@ -1,54 +1,65 @@
-.perguntas{
-   padding-bottom: 7.5rem;
-   padding-top: 7.5rem;
+.perguntas {
+  padding-bottom: 7.5rem;
+  padding-top: 7.5rem;
 }
-.perguntas h2{
-   margin-bottom: 3.75rem;
+.perguntas h2 {
+  margin-bottom: 3.75rem;
 }
-.perguntas dl > div{
-   padding: 1.25rem;
-   border-radius: .31rem;
+.perguntas dl > div {
+  padding: 1.25rem;
+  border-radius: 0.31rem;
 }
-.perguntas dl > div:nth-child(odd){
-   background-color: var(--cor-1);
+.perguntas dl > div:nth-child(odd) {
+  background-color: var(--cor-1);
 }
-.perguntas dt{
-   display: grid;
-   grid-template-columns: auto 1fr auto;
-   align-items: center;
-   gap: 8px;
-   cursor: pointer;
+.perguntas button {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left  ;
 }
-.perguntas dt::before{
-   content: "";
-   display: inline-block;
-   width: .75rem;
-   height: .5rem;
-   background-color: var(--cor-p1);
+.perguntas button::before {
+  content: "";
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.5rem;
+  background-color: var(--cor-p1);
 }
-.perguntas dt::after{
-   content: "";
-   display: inline-block;
-   width: 14px;
-   height: 6px;
-   background: url('../../img/icones/seta-abrir.svg');
-   transition: .3s;
+.perguntas button::after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 6px;
+  background: url("../../img/icones/seta-abrir.svg");
+  transition: 0.3s;
 }
-.perguntas dt:hover::after{
-   transform: rotate(180deg);
+.perguntas button:hover::after,
+.perguntas button[aria-expanded="true"]::after {
+  transform: rotate(180deg);
 }
 .perguntas dd{
-   padding-left: 20px;
-   padding-top: 1rem;
-   max-width: 80ch;
+  display: none;
+}
+.perguntas dd.ativo{
+  display: block;
+}
+.perguntas dd {
+  padding-left: 20px;
+  padding-top: 1rem;
+  max-width: 80ch;
 }
 
-@media(max-width: 800px){
-   .perguntas{
-      padding-top: 3.75rem;
-      padding-bottom: 3.75rem;
-   }
-   .perguntas h2{
-      margin-bottom: 2.5rem;
-   }
+@media (max-width: 800px) {
+  .perguntas {
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+  }
+  .perguntas h2 {
+    margin-bottom: 2.5rem;
+  }
 }

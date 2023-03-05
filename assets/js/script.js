@@ -3,7 +3,6 @@ function ativarLink(link) {
   const href = link.href;
   const url = window.location.href;
   if (url.includes(href)) {
-    console.log(link);
     link.classList.add("ativo");
   }
 }
@@ -18,3 +17,20 @@ function ativarProduto(parametro) {
   }
 }
 url.forEach(ativarProduto);
+
+// Perguntas frequentes
+function ativarPergunta(event){
+  const p = event.currentTarget;
+  const controls = p.getAttribute('aria-controls');
+  const resposta = document.getElementById(controls);
+  resposta.classList.toggle('ativo');
+  const condicao = resposta.classList.contains('ativo');
+  p.setAttribute('aria-expanded',condicao)
+}
+
+function eventosPerguntas(pergunta){
+  pergunta.addEventListener('click', ativarPergunta)
+}
+const perguntas = document.querySelectorAll('.perguntas button').forEach(eventosPerguntas);
+
+
