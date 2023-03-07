@@ -50,3 +50,8 @@ const galeria = document
   });
 
 const galeriaContainer = document.querySelector(".bicicleta-imagens");
+
+// Plugin
+if(window.SimpleAnime){
+  new SimpleAnime();
+}
