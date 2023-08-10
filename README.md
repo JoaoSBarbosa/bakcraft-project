@@ -2,7 +2,7 @@
 
 Bem-vindo ao repositório do Projeto Bakcraft! Este projeto apresenta o site da Bakcraft, uma confeitaria e padaria fictícia. Você pode explorar o site ao vivo em [https://joaosbarbosa.github.io/bakcraft-project/](https://joaosbarbosa.github.io/bakcraft-project/).
 
-![Captura de Tela do Projeto Bakcraft](./assets/screenshot.png)
+![Captura de Tela do Projeto Bakcraft](./assets/img/screenshot.png)
 
 ## Visão Geral do Projeto
 
